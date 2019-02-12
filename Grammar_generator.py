@@ -6,6 +6,7 @@ import nltk
 
 #list of example phrases
 file = open("input.txt" , "r+") #reading input file
+output = open("output.txt" , "w+") #output file
 sentences = file.readlines() #reading lines
 No_sen = len(sentences) #finding number of sentences
 phrase = input("name of phrase\n") #getting phrase name
@@ -47,3 +48,4 @@ for i in gr:
 grammar = grammar + ")*} # " + phrase
 
 print(grammar) #printing grammar
+output.write(grammar) #writing final grammar to output file
