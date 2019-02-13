@@ -15,3 +15,8 @@ Any number of sentences can be given as input
 ## Version 1.3
 
 Writing final grammar to a file
+
+
+## Version 1.4
+
+Created a helper.py script which contains the grammar function to find the grammar
